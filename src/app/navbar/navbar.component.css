@@ -1,0 +1,23 @@
+
+.navbar{
+  background-color: var(--secondaryColor);
+  padding-block: 1.5rem;
+  transition: padding 0.6s;
+}
+.navbar a{
+  color: #FFF;
+  font-weight: 700;
+}
+
+.navbar .navbar-brand{
+  font-size: 1.9258rem;
+}
+
+.activeLink{
+  background-color: var(--mainColor);
+border-radius: 10px;
+}
+
+.scrolled{
+  padding-block: .5rem;
+}

@@ -1,0 +1,44 @@
+
+#portfolio h2{
+  font-size: 38px;
+  font-weight: 700;
+  color: var(--secondaryColor);
+}
+
+#portfolio .row{
+  margin-inline: -0.75rem;
+}
+
+.layer-photo{
+  background-color: var(--mainColor);
+  inset: 0;
+  opacity:0;
+  cursor: pointer;
+  transition: 0.5s all ;
+}
+
+.photo-portfolio:hover .layer-photo{
+  opacity: 0.8;
+}
+
+.div-shape .shape{
+  width: 5rem;
+  height: .25rem;
+  background-color: var(--secondaryColor);
+}
+
+.div-shape i{
+  color: var(--secondaryColor);
+}
+
+
+/* .light-box-container{
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  inset: 0;
+}
+
+
+.light-box-container .light-box img{
+  width: 37.5rem;
+} */

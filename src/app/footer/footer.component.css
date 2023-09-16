@@ -1,0 +1,27 @@
+#footer .top-footer{
+  background-color: var(--secondaryColor);
+  padding: 2.7rem;
+}
+
+#footer .top-footer .icons .icon{
+  width: 35px;
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+#footer .bottom-footer{
+  background-color:#1a252f ;
+  padding: .625rem;
+}
+
+#footer .bottom-footer p{
+  padding-top: .6875rem;
+}
+
+
+@media screen and (max-width:575px){
+  #footer .top-footer .col-sm-4{
+    margin-bottom: 48px;
+  }
+}

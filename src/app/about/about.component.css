@@ -1,0 +1,26 @@
+
+#about{
+  background-color: var(--mainColor);
+  min-height: 85vh;
+}
+
+#about h2{
+  font-size: 38px;
+  font-weight: 700;
+}
+
+/* #about .div-shape .shape{
+  background-color: black !important;
+} */
+
+.div-shape .shape{
+  width: 5rem;
+  height: .25rem;
+  background-color: #fff;
+}
+
+@media screen and (max-width:768px){
+  .col-md-6{
+    padding-inline-start: 0px !important;
+  }
+}

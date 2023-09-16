@@ -1,0 +1,35 @@
+
+#contact h2{
+  font-size: 38px;
+  font-weight: 700;
+  color: var(--secondaryColor);
+}
+
+.div-shape .shape{
+  width: 5rem;
+  height: .25rem;
+  background-color: var(--secondaryColor);
+}
+
+.div-shape i{
+  color: var(--secondaryColor);
+}
+
+#contact .btn{
+  background-color: var(--mainColor);
+}
+
+#contact label{
+  color: var(--mainColor);
+  transition: .5s all;
+}
+
+.showTop{
+  top: 0;
+  visibility: visible;
+}
+
+.hideTop{
+  top: 40px;
+  visibility: hidden;
+}

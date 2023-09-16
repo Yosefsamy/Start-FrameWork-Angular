@@ -1,0 +1,21 @@
+
+#home{
+  background-color: var(--mainColor);
+  min-height: 85vh;
+}
+
+#home img{
+  width: 15.3125rem;
+}
+
+#home h2{
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.div-shape .shape{
+  width: 5rem;
+  height: .25rem;
+  background-color: #fff;
+}
+
